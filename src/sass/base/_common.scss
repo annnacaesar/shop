@@ -1,0 +1,23 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body{
+	color: $mainColor;
+	font-size: 14px;
+	&._lock{
+		overflow: hidden;
+	}
+}
+
+.wrapper{
+	width: 100%;
+	min-width: 100%;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+}
+
+._container{
+	max-width: $maxWidthContainer + px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
